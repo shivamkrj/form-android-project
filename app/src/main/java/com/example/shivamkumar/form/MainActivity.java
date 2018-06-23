@@ -83,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("AGE",age);
         intent.putExtra("NAME",name);
         intent.putExtra("GENDER",x);
+
+
         startActivity(intent);
     }
 }

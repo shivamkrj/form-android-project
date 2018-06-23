@@ -23,13 +23,17 @@ public class NewActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.textViewName);
         TextView textView1 = findViewById(R.id.textViewAge);
         TextView textView2 =findViewById(R.id.textView3);
+
         if(x==1)
         textView2.setText("male");
         else if(x==2)
             textView2.setText("female");
         else if(x==3)
             textView2.setText("other");
+
         textView.setText(name);
+
         textView1.setText(age+"");
+
     }
 }
